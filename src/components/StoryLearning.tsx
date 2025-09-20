@@ -10,6 +10,105 @@ const StoryLearning = () => {
   const stories = [
     {
       id: 1,
+      title: "Ravana's Digital Maya - The Great Deception",
+      type: "Ramayana Adaptation",
+      duration: "7 minutes",
+      difficulty: "Beginner",
+      description: "Learn about phishing and social engineering through Ravana's tricks from the Ramayana.",
+      content: `In the Ramayana, the mighty Ravana used Maya (illusion) to deceive Sita Mata. He appeared as a humble sadhu (holy man) asking for alms, hiding his true demon identity.
+
+Today, cyber criminals use the same Maya! Mrs. Lakshmi received an email that looked exactly like it came from her bank. Just like Ravana's disguise, it seemed trustworthy on the surface.
+
+The email said: "Namaste! Your account needs immediate verification. Click here to protect your savings." It even had the bank's logo and colors!
+
+But Mrs. Lakshmi remembered her grandson's advice: "Ajji, just like Sita should have stayed within Lakshman Rekha's protection, never click links in suspicious emails."
+
+She thought: "If Hanuman always verified before acting, I should too!" Instead of clicking, she called her bank directly.
+
+The bank confirmed - it was fake! Just like Ravana's Maya, the email was a dangerous illusion designed to steal her information.
+
+Remember: Like Ram defeated Ravana's Maya with wisdom, we defeat cyber Maya by verifying first!`,
+      lesson: "Cybercriminals use digital Maya to appear trustworthy. Always verify independently, just like crossing Lakshman Rekha safely.",
+      category: "Phishing Protection"
+    },
+    {
+      id: 2,
+      title: "Duryodhana's Gambling House - The Digital Dice Game",
+      type: "Mahabharata Adaptation",
+      duration: "8 minutes",
+      difficulty: "Intermediate", 
+      description: "Understanding online financial scams through the unfair gambling in Mahabharata.",
+      content: `In the Mahabharata, Duryodhana invited the Pandavas to a rigged dice game. The game seemed fair, but Shakuni's magical dice ensured the Pandavas would lose everything.
+
+Mr. Krishnan received a phone call: "Sir, you've been selected for our special investment scheme! Double your money in just one week! Many people from your area have already benefited."
+
+This reminded him of Duryodhana's trap. The caller was like Shakuni - the game was rigged from the start!
+
+The caller said: "Just send ₹50,000 to start. Our company is registered and legitimate!" But Mr. Krishnan remembered how even Yudhishthira, the most righteous man, fell for the gambling trap.
+
+He thought: "If Krishna advised the Pandavas to be cautious of too-good-to-be-true offers, I should be too!"
+
+Mr. Krishnan said: "If your scheme is so profitable, why do you need my money? Real businesses don't work this way."
+
+He hung up and later learned it was a Ponzi scheme - a modern dice game where only the scammers win!
+
+Like Krishna's wisdom saved the Pandavas eventually, knowledge protects us from digital gambling traps.`,
+      lesson: "Investment schemes promising quick, guaranteed returns are like Shakuni's rigged dice - designed to make you lose.",
+      category: "Investment Fraud"
+    },
+    {
+      id: 3,
+      title: "The Maya of Fake Apps - Vishnu's Avatar Wisdom",
+      type: "Mythological Wisdom",
+      duration: "6 minutes",
+      difficulty: "Beginner",
+      description: "Learn to identify fake apps and websites using the concept of avatars and true identity.",
+      content: `In our scriptures, Lord Vishnu takes many avatars, but there are also false gods who pretend to be divine. Devotees learned to identify the true avatars by their actions and divine qualities.
+
+Mrs. Sudha wanted to pay her electricity bill online. She searched "electricity board payment" and found an app that looked official. It had the right colors and logo!
+
+But her daughter had taught her: "Amma, just like we verify a temple's authenticity before offering prayers, always check if an app is real before entering your details."
+
+The fake app was like a false god - it looked divine but had evil intentions! 
+
+Mrs. Sudha noticed warning signs:
+- The app asked for more permissions than needed (like a false guru asking for unnecessary donations)
+- It had poor reviews (like a temple with unhappy devotees)
+- The grammar was poor (true divinity speaks clearly)
+
+She downloaded the official app from her state electricity board's website instead. Just like devotees find peace in authentic temples, she paid her bill safely through the real app.
+
+Remember: Just as we verify the authenticity of our spiritual guides, always verify your digital tools!`,
+      lesson: "Verify app authenticity like verifying a temple - check official sources, reviews, and trust your instincts.",
+      category: "App Safety"
+    },
+    {
+      id: 4,
+      title: "Karna's False Pride - Social Media Scams",
+      type: "Mahabharata Adaptation", 
+      duration: "7 minutes",
+      difficulty: "Intermediate",
+      description: "Learn about social media scams through Karna's story of false identity and pride.",
+      content: `In the Mahabharata, Karna lived his life believing he was a charioteer's son, but was actually a Kshatriya. His false identity led to many troubles and wrong decisions.
+
+Mr. Rajesh received a friend request on Facebook from someone claiming to be his old school friend Ramesh. The profile had photos that looked like Ramesh from 30 years ago!
+
+The fake "Ramesh" messaged: "Yaar, I'm in trouble! I'm stuck at the airport and need ₹25,000 urgently. Can you send it through UPI? I'll return it tomorrow!"
+
+But Mr. Rajesh remembered Karna's story. Just as Karna's false identity created problems, this could be a false friend creating a scam!
+
+He thought: "If this is really Ramesh, he would know personal details about our school days." So he asked: "Which teacher used to call you by your nickname?"
+
+The scammer couldn't answer! Just like Karna's true identity was revealed, the fake friend was exposed.
+
+Mr. Rajesh called the real Ramesh's phone number. His friend was safely at home and knew nothing about any airport emergency!
+
+Like Arjuna saw through Maya in battle, we must see through digital Maya in social media.`,
+      lesson: "Verify social media identities like revealing true character - ask personal questions only real friends would know.",
+      category: "Social Media Fraud"
+    },
+    {
+      id: 5,
       title: "The Wolf in Digital Clothing",
       type: "Fairy Tale Adaptation",
       duration: "5 minutes",
@@ -30,28 +129,7 @@ Remember: Just as Little Red Riding Hood learned to be careful, always verify be
       category: "Email Safety"
     },
     {
-      id: 2,
-      title: "The Golden Goose Scam",
-      type: "Fable Adaptation", 
-      duration: "4 minutes",
-      difficulty: "Beginner",
-      description: "Understand get-rich-quick scams through a familiar fable.",
-      content: `In a small town, there lived a wise woman named Martha who received a phone call one day.
-
-"Congratulations!" said the caller. "You've won a million dollars! Just send us $500 for processing fees and taxes."
-
-This reminded Martha of the old fable about the golden goose. The greedy people wanted all the golden eggs at once and ended up with nothing.
-
-Martha thought: "If I really won money, why would I need to pay to receive it? This sounds like the greedy people in the fable - they want my $500 and will disappear like smoke."
-
-She hung up the phone and called her son to tell him about the suspicious call. Her son confirmed it was a common scam.
-
-Martha learned that real prizes never require upfront payment, just like real golden geese don't need you to pay them to lay eggs!`,
-      lesson: "Real prizes never require upfront payments. If it sounds too good to be true, it probably is.",
-      category: "Phone Scams"
-    },
-    {
-      id: 3,
+      id: 6,
       title: "The Neighbor's Wisdom - Episode 1",
       type: "Family Drama",
       duration: "6 minutes", 
