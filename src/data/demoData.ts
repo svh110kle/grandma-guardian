@@ -79,6 +79,83 @@ export const safetyTips = [
     title: "The Gift That Costs Money Isn't a Gift",
     content: "Real prizes and gifts never require you to pay fees upfront. If someone asks you to pay to receive money, it's always a scam.",
     category: "Prize Scams"
+  },
+  {
+    id: 4,
+    title: "Social Media Safety",
+    content: "Be careful about sharing personal information on social media. Scammers use this information to make their tricks seem more real.",
+    category: "Social Media"
+  },
+  {
+    id: 5,
+    title: "Email Safety Rules",
+    content: "Don't click on links in unexpected emails, especially if they ask for personal information. Type website addresses directly into your browser instead.",
+    category: "Email Safety"
+  },
+  {
+    id: 6,
+    title: "Phone Call Safety",
+    content: "Never give personal information to unexpected callers. If they claim to be from a company you use, hang up and call that company directly.",
+    category: "Phone Safety"
+  },
+  {
+    id: 7,
+    title: "Online Shopping Safety",
+    content: "Only shop on secure websites (look for 'https' and a lock icon). Use credit cards instead of debit cards for better protection.",
+    category: "Online Shopping"
+  },
+  {
+    id: 8,
+    title: "Family Emergency Scams",
+    content: "If someone calls claiming a family member is in trouble and needs money, hang up and call your family member directly to verify.",
+    category: "Family Scams"
+  }
+];
+
+export const safetyStories = [
+  {
+    id: 1,
+    title: "The Tale of the Fake Nephew",
+    content: "Once upon a time, Mrs. Sharma received a call from someone claiming to be her nephew in jail. Like in the story of the boy who cried wolf, this caller was lying. Mrs. Sharma was smart - she hung up and called her nephew directly. He was safe at home! The moral: Always verify unexpected emergency calls by contacting your family directly.",
+    category: "Family Emergency Scams",
+    moral: "Trust but verify - especially when someone claims there's an emergency."
+  },
+  {
+    id: 2,
+    title: "The Merchant and the Golden Email",
+    content: "Like the tale of the merchant who was offered fool's gold, Mr. Patel received an email saying he won a lottery he never entered. The email promised golden riches but asked for silver coins first. A wise merchant knows - real gold doesn't cost money to claim! Mr. Patel deleted the email and kept his silver coins safe.",
+    category: "Prize Scams",
+    moral: "Real prizes are free to claim - anything else is fool's gold."
+  },
+  {
+    id: 3,
+    title: "The Password Guardian",
+    content: "In ancient times, only the king knew the secret word to enter the royal treasury. Today, your password is like that secret word - it protects your digital treasury. Just as the king never shared his secret word with messengers, never share your password with emails or phone calls claiming to need it.",
+    category: "Password Safety",
+    moral: "Guard your passwords like a king guards his treasury."
+  }
+];
+
+export const additionalResources = [
+  {
+    title: "Quick Reference Guide",
+    description: "Important phone numbers and safety reminders you can print and keep handy",
+    type: "reference"
+  },
+  {
+    title: "Family Contact List", 
+    description: "Keep your trusted family members' contact information easily accessible",
+    type: "contacts"
+  },
+  {
+    title: "Safe Website List",
+    description: "A list of legitimate websites for banking, shopping, and services you use",
+    type: "websites"
+  },
+  {
+    title: "Daily Safety Checklist",
+    description: "Simple daily habits to stay safe online",
+    type: "checklist"
   }
 ];
 

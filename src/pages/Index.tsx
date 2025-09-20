@@ -19,8 +19,8 @@ const Index = () => {
             <div className="flex items-center gap-3">
               <Shield className="h-10 w-10 text-primary" />
               <div>
-                <h1 className="text-3xl font-bold text-foreground">Digital Guardian</h1>
-                <p className="text-lg text-muted-foreground">Your trusted online safety companion</p>
+                <h1 className="text-3xl font-bold text-foreground">Smart Ajji</h1>
+                <p className="text-lg text-muted-foreground">Your trusted digital safety companion</p>
               </div>
             </div>
             <Button variant="outline" size="lg" className="gap-2">
@@ -128,6 +128,31 @@ const Index = () => {
                   </Button>
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Additional Resources */}
+            <div className="space-y-4">
+              <h3 className="text-2xl font-semibold text-foreground">Additional Resources</h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  { title: "Quick Reference Guide", desc: "Important phone numbers and safety reminders", icon: "📋" },
+                  { title: "Family Contact List", desc: "Keep trusted contacts easily accessible", icon: "👨‍👩‍👧‍👦" },
+                  { title: "Safe Website List", desc: "Legitimate websites for banking and shopping", icon: "🔗" },
+                  { title: "Daily Safety Checklist", desc: "Simple daily habits to stay safe online", icon: "✅" }
+                ].map((resource, index) => (
+                  <Card key={index} className="hover:shadow-md transition-shadow">
+                    <CardContent className="pt-6">
+                      <div className="flex items-start gap-4">
+                        <span className="text-3xl">{resource.icon}</span>
+                        <div>
+                          <h4 className="font-semibold text-lg">{resource.title}</h4>
+                          <p className="text-muted-foreground">{resource.desc}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
             </div>
 
             {/* Today's Safety Tip */}
